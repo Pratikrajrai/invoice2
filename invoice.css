@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+    color: rgb(243, 72, 72);
+    font-size: 13px;
+};
+
+.main-container{
+   
+    
+}
+
+.container{
+    width: 70vw;
+    
+    margin: 0% auto;
+   line-height: 1rem;
+    margin-top: 6rem;
+    margin-bottom: 8rem;
+    
+}
+.company-name{
+   
+    text-align: center;
+    font-size: 2rem;
+    word-spacing: 8px;
+    letter-spacing: 3px;
+  
+  
+   
+}
+
+.invoice-date-number{
+    display: flex;
+    justify-content: space-between;
+ 
+  
+}
+
+.pan-no{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.invoice-no{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    gap: 2px;
+  
+}
+
+ .invoice{
+   
+     margin-top: 2rem;
+     text-align: center;
+     letter-spacing:5px ;
+ }
+
+
+ .pay-method{
+     display: flex;
+     flex-direction: column;
+     gap: 2px;
+ }
+ /* ---------------------- */
+
+ /* --Table section--- */
+ .tb{
+     margin-top: 3px;
+ width:100%;
+ text-align: left;
+ border-bottom:2px dashed black ;
+ }
+
+ td{
+ padding:0.7rem ;
+
+       
+    }
+    
+    .head{
+        width: 100%;
+        border-bottom:2px dashed black ;
+        border-top:2px dashed black ;
+    }
+    
+    .table-container1{
+        /* width: 102%; */
+        margin-top: 2rem;
+      
+       
+    }
+    
+    .table-container2{
+        border-top: 2px dashed black;
+        /* width: 100%; */
+     
+       
+    }
+    
+    
+    
+    .total-display{
+        margin-top: 10px;
+        display: flex;
+    justify-content: space-between;
+    
+    }
+    .total{
+  display: flex; 
+  /* justify-content: space-evenly; */
+     gap: 1rem; 
+
+        
+    };
+
+    
